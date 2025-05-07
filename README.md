@@ -1,13 +1,13 @@
-## hdata_R
-## TILP2400 Harjoitukset 1
+# hdata_R
+# TILP2400 Harjoitukset 1
 
-# Tehtävä 7
+## Tehtävä 7
 7. Muuttujien tietotyyppien muokkaus
 Usein muuttujatyyppejä on tarve muokata jatkoanalyysejä varten. Muuta aineiston muuttuja
 smoking merkkijonosta (chr) luokitelluksi muuttujaksi (factor), ja listaa muuttujan saamat
 arvot ajamalla seuraavat komennot:
-# hdata$smoking <- factor(hdata$smoking)
-# levels(hdata$smoking)
+### hdata$smoking <- factor(hdata$smoking)
+### levels(hdata$smoking)
 Toteuta vastaavasti muunnos merkkijonosta (chr) luokitelluksi muuttujaksi (factor) muuttujalle age.
 
 Kysymys: Kuinka monta eri ikäluokkaa aineistossa esiintyy?
@@ -19,11 +19,11 @@ Huom. Yllä koodin oikea puoli (factor) tekee muuttujasta luokitellun. Nuolimerk
 merkkijonoinen muuttuja korvataan uudella luokitellulla muuttujalla. Voit halutessasi korvata
 nuolen yhtäsuuruusmerkillä.
 
-# hdata$age <- factor(hdata$age)
-# levels(hdata$age)
+### hdata$age <- factor(hdata$age)
+### levels(hdata$age)
 
 muunnos merkkijonosta (chr) luokitelluksi 
 muuttujaksi (factor) muuttujalle age
 
-Kysymys: Kuinka monta eri ikäluokkaa aineistossa esiintyy?
+# Kysymys: Kuinka monta eri ikäluokkaa aineistossa esiintyy?
 
