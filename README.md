@@ -1,7 +1,7 @@
-# hdata_R
-# TILP2400 Harjoitukset 1
+## hdata_R
+## TILP2400 Harjoitukset 1
 
-Tehtävä 7
+# Tehtävä 7
 7. Muuttujien tietotyyppien muokkaus
 Usein muuttujatyyppejä on tarve muokata jatkoanalyysejä varten. Muuta aineiston muuttuja
 smoking merkkijonosta (chr) luokitelluksi muuttujaksi (factor), ja listaa muuttujan saamat
@@ -21,7 +21,6 @@ nuolen yhtäsuuruusmerkillä.
 
 # hdata$age <- factor(hdata$age)
 # levels(hdata$age)
-# length(hdata$age)
 
 muunnos merkkijonosta (chr) luokitelluksi 
 muuttujaksi (factor) muuttujalle age
