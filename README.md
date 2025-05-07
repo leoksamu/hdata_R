@@ -9,7 +9,7 @@ arvot ajamalla seuraavat komennot:
 ### levels(hdata$smoking)
 Toteuta vastaavasti muunnos merkkijonosta (chr) luokitelluksi muuttujaksi (factor) muuttujalle age.
 
-Kysymys: Kuinka monta eri ikäluokkaa aineistossa esiintyy?
+#### Kysymys: Kuinka monta eri ikäluokkaa aineistossa esiintyy?
 
 Huom. muokatun muuttujan tietotyypin voit tarkistaa myös komennolla class(), missä sulkujen
 sisään laitetaan aineiston muuttuja. Yhtälailla voidaan muuttaa myös muita tietotyyppejä,
@@ -17,12 +17,4 @@ jolloin koodissa sanan factor paikalle laitetaan haluttu tietotyyppi.
 Huom. Yllä koodin oikea puoli (factor) tekee muuttujasta luokitellun. Nuolimerkillä aineiston
 merkkijonoinen muuttuja korvataan uudella luokitellulla muuttujalla. Voit halutessasi korvata
 nuolen yhtäsuuruusmerkillä.
-
-### hdata$age <- factor(hdata$age)
-### levels(hdata$age)
-
-muunnos merkkijonosta (chr) luokitelluksi 
-muuttujaksi (factor) muuttujalle age
-
-# Kysymys: Kuinka monta eri ikäluokkaa aineistossa esiintyy?
 
