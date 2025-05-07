@@ -1,6 +1,5 @@
 # hdata_R
-# TILP2400 Harjoitukset 1
-
+## TILP2400 Harjoitukset 1
 ## Tehtävä 7 Muuttujien tietotyyppien muokkaus
 Usein muuttujatyyppejä on tarve muokata jatkoanalyysejä varten. Muuta aineiston muuttuja
 smoking merkkijonosta (chr) luokitelluksi muuttujaksi (factor), ja listaa muuttujan saamat
