@@ -5,11 +5,11 @@
 Usein muuttujatyyppejä on tarve muokata jatkoanalyysejä varten. Muuta aineiston muuttuja
 smoking merkkijonosta (chr) luokitelluksi muuttujaksi (factor), ja listaa muuttujan saamat
 arvot ajamalla seuraavat komennot:
-### hdata$smoking <- factor(hdata$smoking)
-### levels(hdata$smoking)
+#### hdata$smoking <- factor(hdata$smoking)
+#### levels(hdata$smoking)
 Toteuta vastaavasti muunnos merkkijonosta (chr) luokitelluksi muuttujaksi (factor) muuttujalle age.
 
-#### Kysymys: Kuinka monta eri ikäluokkaa aineistossa esiintyy?
+## Kysymys: Kuinka monta eri ikäluokkaa aineistossa esiintyy?
 
 Huom. muokatun muuttujan tietotyypin voit tarkistaa myös komennolla class(), missä sulkujen
 sisään laitetaan aineiston muuttuja. Yhtälailla voidaan muuttaa myös muita tietotyyppejä,
