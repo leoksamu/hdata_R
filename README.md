@@ -18,6 +18,5 @@ merkkijonoinen muuttuja korvataan uudella luokitellulla muuttujalla. Voit halute
 nuolen yhtäsuuruusmerkillä.
 
 ## Ilmeisesti tulos pitäisi olla 11, mutta sain tulosteeseen:
-> length(hdata$age)
-
+length(hdata$age)
 [1] 876
