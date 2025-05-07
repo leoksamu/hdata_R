@@ -19,4 +19,5 @@ nuolen yhtäsuuruusmerkillä.
 
 ## Ilmeisesti tulos pitäisi olla 11, mutta sain tulosteeseen:
 > length(hdata$age)
+
 [1] 876
